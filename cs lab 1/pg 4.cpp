@@ -2,8 +2,8 @@
 int main()
 {
 	int b,c;
-	scanf("%d%d",&b);
 	printf("enter region");
+	scanf("%d%d",&b);
 	if (b==1)
 		c=b*0.27;
 	else if (b==2)
