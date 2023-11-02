@@ -15,7 +15,7 @@ int main()
 				if (a[i]==a[j])
 				{
 					for(k=j;k<n-1;k++)
-						a[j]=a[j+1];
+						a[k]=a[k+1];
 					n--;
 					j--;
 				}
