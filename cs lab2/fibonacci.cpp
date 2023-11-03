@@ -6,12 +6,13 @@ int main()
 	int a=0;
 	int b=1;
 	int s=0;
+	printf("%d\n%d\n",a,b);
 	for(int i=3;i<=n;i++)
 		{
 		s=a+b;
 		a=b;
 		b=s;
+		printf("%d\n",b);
 		}
-	printf("%d",b);
 	return 0;
 }
